@@ -1,0 +1,114 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}   
+
+/* navbar */
+
+nav {
+    display: flex;
+    border-bottom-style: ridge;
+    position: fixed;
+    width: 100%;
+}
+
+.nav1 {
+    padding: 30px;
+    padding-left: 20px;
+    width: 10%;
+    background-color: white;
+    font-weight: bold;
+}
+
+.nav2 {
+    display: flex;
+    justify-content: flex-end;
+    padding: 30px;
+    padding-right: 80px;
+    width: 100%;
+    background-color: white;
+    font-size: small;
+    font-weight: 600;
+}
+
+li {
+    list-style-type: none;
+    border: 1px;
+    margin-left: 30px;
+}
+
+.nav_home:hover, .nav_about:hover, .nav_blogs:hover, .nav_contact:hover {
+    text-decoration: underline 0.15em;
+    text-decoration-color: gray;
+    text-underline-offset: 0.5em;
+    transition: 300ms;
+}
+
+.arkan {
+    float: left;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Blogs */
+
+#blogs {
+    background-color: rgb(235, 235, 235);
+}
+
+.blogs_head {
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+    padding-bottom: 30px;
+    padding-top: 150px;
+}
+
+.blogs_date {
+    font-size: small;
+    text-align: center;
+    padding: 30px;
+    padding-top: 0;
+    border-bottom: groove;
+    margin-inline: 30%;
+}
+
+.blog_image {
+    text-align: center;
+    margin: 50px;
+    margin-top: 50px;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.image_ddp_tangga, .image_ddp_dalam, .image_ddp_luar {
+    width: 300px;
+    height: 375px;
+}
+
+.blogs_text {
+    padding-bottom: 80px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    font-size: smaller;
+    text-align: justify;
+}
+
+
+.footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 3%;
+    font-size: small;
+}
